@@ -9,7 +9,8 @@ branches:
 build: off
 
 install:
-  - java -jar ./artifacts/app-ibank.jar -port=7777 -P:profile=test &
+
+  - java -jar ./artifacts/app-ibank.jar -port=7777 -P:profile=test &gi
 
 build_script:
   - chmod +x gradlew
